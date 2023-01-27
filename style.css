@@ -1,0 +1,146 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  font-family: "Poppins", "arial-sans-serif";
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+span {
+  font-size: 1.2rem;
+}
+
+small {
+  font-size: 1rem;
+}
+
+span,
+small {
+  display: block;
+  color: #828282;
+}
+
+.recomendation {
+  margin-block: 20px;
+}
+
+.Footer,
+a {
+  font-size: 1.8rem;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 115px;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #2f80ed;
+  color: #f2f2f2;
+}
+
+button:hover {
+  background-color: #97bef4;
+  cursor: pointer;
+}
+
+.oculto {
+  display: none;
+}
+
+.Main {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 402px;
+  height: 469px;
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 36px;
+}
+
+.Main_card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #f6f8fb;
+
+  border: 1px dashed #97bef4;
+  border-radius: 12px;
+
+  width: 100%;
+  max-width: 338px;
+  height: 220px;
+}
+
+.Main_card-drop {
+  border: 2px dashed #2f80ed;
+  background-color: #d2dae6;
+}
+
+.Main_card-loaded {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.Main_card-loaded > img,
+.Main_card-loaded > span {
+  display: none;
+}
+
+.URL button {
+  position: absolute;
+  right: 0px;
+}
+.URL {
+  position: relative;
+  background-color: #e0e0e0;
+  padding-left: 7px;
+  border-radius: 8px;
+  max-width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+  color: #219653;
+}
+
+.Main_text h1 {
+  align-items: center;
+}
+
+.Footer {
+  justify-self: flex-end;
+}
